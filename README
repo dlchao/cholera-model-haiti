@@ -1,0 +1,24 @@
+This C++ source code was used to simulate the cholera epidemic in
+Haiti, which began in 2010. The work is described in the Proceedings
+of the National Academy of Sciences ("Vaccination strategies for 
+epidemic cholera in Haiti with implications for the developing 
+world").
+
+The code requires three data files: rivers.txt, highways.txt, and 
+landscan_population_dms.txt.  The first two are derived from 
+OpenStreetMap's data, which I downloaded from 
+http://labs.geofabrik.de/haiti/2010-11-23-17-44.osm.bz2.
+The last was derived from LandScan's data, which is not publicly
+available. Therefore, we can not distribute the program with the 
+data files required to run it.
+
+The program requires the GNU Scientific library 
+(http://www.gnu.org/software/gsl/) to compile.
+
+This work is released under the GPLv3 (see gpl.txt or 
+http://www.gnu.org/licenses/gpl-3.0.html).
+
+Dennis Chao
+dchao@fhcrc.org
+April 6, 2011
+
